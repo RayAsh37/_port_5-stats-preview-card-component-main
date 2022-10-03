@@ -1,6 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;900&display=swap');
+
+body {
+  background-color: #0a0c1b;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+}
+/* BACKGROUND */
+main {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+/* CARD */
+.main-card {
+  margin-top: 7rem;
+  display: flex;
+  flex-direction: row;
+  max-width: 100rem;
+  max-height: 25rem;
+}
+
+/* WRITTEN CONTENT insights color: #a85cd9; */
+.written-content {
+  background-color: #1c1938;
+  padding: 4rem;
+}
+
+.insight {
+  color: #a85cd9;
+}
+
+.written-content p {
+  text-align: left;
+  font-weight: 100;
+}
+
+.stats {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-top: 3rem;
+}
+
+.stats div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 0rem;
+}
+
+.stats div p {
+  padding: 0 1rem 0rem 0rem;
+  margin: 0 1rem 0rem 0rem;
+}
+
+.stats .stats-head {
+  font-weight: 900;
+}
+
+/* IMAGE  */
+.image-parent {
+  position: relative;
+  min-width: 540px;
+  /* min-height: 446px; */
+  /* width: 540px;
+  height: 446px; */
+}
+
+.office-img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #a85cd9;
+  opacity: 0.45;
+}
+
 /* FOOTER */
+footer {
+  margin-top: 5rem;
+}
+
 .attribution {
-  font-size: 11px;
+  font-size: 1rem;
   text-align: center;
 }
 .attribution a {
